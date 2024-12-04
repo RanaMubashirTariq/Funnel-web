@@ -28,7 +28,7 @@ export default function MainSection() {
 
               {/* left-part */}
 
-              <div className='left-part-main-container'><video src={videofile} type='video/mp4' controls ></video></div>
+              <div className='left-part-main-container-d'><video src={videofile} type='video/mp4' controls ></video></div>
     </div>
             
         
