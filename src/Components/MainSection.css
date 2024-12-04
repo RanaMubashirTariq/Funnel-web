@@ -112,7 +112,7 @@
     color: rgba(255, 255, 255, 1);
     margin: 0;
 }
-.left-btn{
+.left-btn-d{
     width: 164px;
     display: flex;
     justify-content: center;
@@ -121,7 +121,7 @@
     border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 1);
 }
-.left-btn button{
+.left-btn-d button{
     border: none;
     background: none;
     outline: none;
@@ -166,11 +166,11 @@
 @media screen and (min-width:1200px) and (max-width:1300px) {
     .right-btn{
         width: 160px;
-        padding: 15px 30px !important;
+        padding: 15px 30px;
     }
-    .left-btn{
+    .left-btn-d{
         width: 164px;
-        padding: 15px 30px !important;
+        padding: 15px 30px;
     }
 }
 
@@ -219,16 +219,10 @@
     .right-btn{
         width: 160px;
         padding: 15px 30px;
-        gap: 10px;
-        border-radius: 16px;
-        background: rgba(15, 111, 255, 1);
     }
-    .left-btn{
+    .left-btn-d{
         width: 164px;
         padding: 15px 30px;
-        gap: 10px;
-        border-radius: 16px;
-        border: 1px solid rgba(255, 255, 255, 1);
     }
 }
 
@@ -284,7 +278,7 @@
         border-radius: 16px;
         background: rgba(15, 111, 255, 1);
     }
-    .left-btn{
+    .left-btn-d{
         width: 104px;
         padding: 10px 15px;
         gap: 10px;
@@ -336,7 +330,7 @@
         border-radius: 16px;
         background: rgba(15, 111, 255, 1);
     }
-    .left-btn{
+    .left-btn-d{
         width: 104px;
         padding: 15px 15px;
         gap: 10px;
@@ -416,7 +410,7 @@
         border-radius: 16px;
         background: rgba(15, 111, 255, 1);
     }
-    .left-btn{
+    .left-btn-d{
         width: 104px;
         padding: 15px 15px;
         gap: 10px;

@@ -22,7 +22,7 @@ export default function MainSection() {
 
                        <div className='second-part'>
                         <div className='right-btn'><button>Book a Call</button></div>
-                        <div className='left-btn'><button>Learn More</button></div>
+                        <div className='left-btn-d'><button>Learn More</button></div>
                        </div>
               </div>
 

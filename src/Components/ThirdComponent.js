@@ -28,7 +28,7 @@ export default function ThirdComponent() {
                   </div>
               </div>
                 
-              <div className='right-btn'><button>Book a Call</button></div>
+              <div className='right-btn-d'><button>Book a Call</button></div>
            </div>
            <ThirdComponentPart2/>
     </div>

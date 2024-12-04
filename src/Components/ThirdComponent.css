@@ -103,7 +103,7 @@
     margin: 0;
 }
 
-.right-btn{
+.right-btn-d{
     width: 160px;
     display: flex;
     justify-content: center;
@@ -114,7 +114,7 @@
     margin: 0 auto;
     margin-top: 53px;
 }
-.right-btn button{
+.right-btn-d button{
     border: none;
     background: none;
     outline: none;
