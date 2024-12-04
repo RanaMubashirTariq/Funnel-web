@@ -1,0 +1,284 @@
+.third-container{
+    width: 100%;
+    background: radial-gradient( rgba(15, 111, 255, 1) 10%,black 60%) !important;
+}
+.third-container-part-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 176px 160px 231px 160px;
+    box-sizing: border-box;
+    gap: 20px;
+}
+.part1-third-d{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.part1-third-heading-d{
+    width: 100%;
+}
+.part1-third-heading-d h2{
+    font-family: Exo 2;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 64px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1); 
+    text-shadow: 4px 4px 4px black,6px 6px 2px blue;
+    margin: 0;   
+}
+.part1-third-heading-d h2 span{
+    font-family: Exo 2;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 64px;
+    text-align: center;
+    color: rgba(15, 111, 255, 1);
+    text-shadow: 4px 4px 2px black,6px 6px 2px blue;
+    margin: 0;
+}
+.part1-third-paragraph-d{
+    width: 100%;
+    max-width: 800px;
+    margin: 0px auto;
+    /* padding: 0px 160px; */
+  
+}
+.part1-third-paragraph-d p{
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+.small-three-d{
+    width: 100%;
+    max-width: 761px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+.small-d{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.small-d-heading{
+    width: 100%;
+}
+.small-d-heading h2{
+    font-family: Exo 2;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 84px;   
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+.small-d-paragraph{
+    width: 100%;
+}
+.small-d-paragraph p{
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+
+.right-btn{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 25px 30px;
+    gap: 10px;
+    border-radius: 16px;
+    background: rgba(15, 111, 255, 1);
+    margin: 0 auto;
+    margin-top: 53px;
+}
+.right-btn button{
+    border: none;
+    background: none;
+    outline: none;
+    font-family: Exo 2;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+
+@media screen and (min-width:1100px) and (max-width:1300px) {
+    .third-container-part-1{
+        padding: 176px 120px 231px 120px;
+    }
+}
+
+@media screen and (min-width:870px) and (max-width:1100px) {
+    .third-container-part-1{
+        padding: 120px 70px 130px 70px;
+
+    }
+    .part1-third-heading-d h2{
+        font-size: 44px;
+        line-height: 64px;
+        margin: 0;   
+    }
+    .part1-third-heading-d h2 span{
+        font-size: 44px;
+        line-height: 64px;
+    }
+    .part1-third-paragraph-d p{
+        font-size: 18px;
+        line-height: 32px;
+
+    }
+    .small-d-heading h2{
+        font-size: 56px;
+        line-height: 84px;   
+    }
+    .small-d-paragraph p{
+        font-size:18px;
+        line-height: 32px;
+    }
+}
+
+
+@media screen and (min-width:650px) and (max-width:870px) {
+    .third-container-part-1{
+        padding: 80px 50px 80px 50px;
+
+    }
+    .part1-third-heading-d h2{
+        font-size: 38px;
+        line-height: 54px;
+        margin: 0;   
+    }
+    .part1-third-heading-d h2 span{
+        font-size: 38px;
+        line-height: 54px;
+    }
+    .part1-third-paragraph-d{
+        width: 100%;
+        max-width: 600px;
+        margin: 0px auto;
+        /* padding: 0px 160px; */
+      
+    }
+    .part1-third-paragraph-d p{
+        font-size: 14px;
+        line-height: 32px;
+
+    }
+    .small-three-d{
+        width: 100%;
+        max-width: 561px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px auto;
+    }
+    .small-d-heading h2{
+        font-size: 44px;
+        line-height: 84px;   
+    }
+    .small-d-paragraph p{
+        font-size:14px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:650px){
+    .third-container-part-1{
+        padding: 50px 20px 50px 20px;
+
+    }
+    .part1-third-heading-d h2{
+        font-size: 28px;
+        line-height: 34px;
+        margin: 0;   
+    }
+    .part1-third-heading-d h2 span{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .part1-third-paragraph-d{
+        width: 100%;
+        margin: 0px auto;
+        /* padding: 0px 160px; */
+      
+    }
+    .part1-third-paragraph-d p{
+        font-size: 14px;
+        line-height: 22px;
+
+    }
+    .small-three-d{
+        width: 100%;
+    }
+    .small-d-heading h2{
+        font-size: 28px;
+        line-height: 44px;   
+    }
+    .small-d-paragraph p{
+        font-size:12px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .third-container-part-1{
+        padding: 50px 20px 50px 20px;
+
+    }
+    .part1-third-heading-d h2{
+        font-size: 24px;
+        line-height: 34px;
+        margin: 0;   
+    }
+    .part1-third-heading-d h2 span{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .part1-third-paragraph-d{
+        width: 100%;
+        margin: 0px auto;
+        /* padding: 0px 160px; */
+      
+    }
+    .part1-third-paragraph-d p{
+        font-size: 12px;
+        line-height: 22px;
+
+    }
+    .small-three-d{
+        width: 100%;
+    }
+    .small-d-heading h2{
+        font-size: 22px;
+        line-height: 44px;   
+    }
+    .small-d-paragraph p{
+        font-size:8px;
+        line-height: 22px;
+    }
+}
