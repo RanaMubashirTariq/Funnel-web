@@ -1,0 +1,425 @@
+.agencies-card-d{
+    width: 100%;
+    background: rgb(7, 7, 46);
+    display: flex;
+    flex-direction: column;
+    padding: 120px 100px 118px 100px;
+    box-sizing: border-box;
+}
+.content-part{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.content-right-part{
+    width: 100%;
+    max-width: 757px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content-right-part h2{
+    width: 100%;
+    max-width: 681px;
+    font-family: Exo 2;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+     color: white;
+     margin: 0;
+}
+.content-right-part h2 span{
+    color: rgba(15, 111, 255, 1);
+    margin: 0;
+}
+.content-right-part p{
+    width: 100%;
+    max-width: 757px;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+.content-left-part{
+    width:133px;
+    height: 54px;
+    /* padding: 20px 30px; */
+    gap: 10px;
+    border-radius: 16px;
+    background: rgba(15, 111, 255, 1);
+    display: flex;
+    justify-content: center;  
+    margin: 46px 0px;   
+}
+.content-left-part button{
+    border: none;
+    outline: none;
+    background: none;
+    font-family: Exo 2;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+  /* PART-2 FOR CARDS */
+
+.agencies-cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 60px;
+    
+}
+.pic-d{
+    width: 400px;
+    height: 530px;
+}
+.card-d{
+    background-image: url(/public/Images/co-founder-vizz.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+}
+.card-d-2{
+    background-image: url(/public/Images/coo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+}
+.card-d-3{
+    background-image: url(/public/Images/founder-sk-lab.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+}
+.card-d-4{
+    background-image: url(/public/Images/marketing-officer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px ;
+}
+.card-d-5{
+    background-image: url(/public/Images/co-founder-razi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px ;
+}
+.card-d-6{
+    background-image: url(/public/Images/marketing-officer-gitlabs.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+}
+.inner-card-content-d{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 8px; */
+    padding: 457px 125px 19px 30px;
+    box-sizing: border-box;
+}
+.inner-card-content-heading h2{
+    width: 100%;
+    font-family: Exo 2;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+     margin: 0;
+}
+.inner-card-content-paragraph p{
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;     
+}
+
+ 
+
+@media screen and (min-width:1141px) and (max-width:1300px) {
+    .pic-d{
+        width: 300px;
+        height: 430px;
+    }
+    .inner-card-content-d{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* gap: 8px; */
+        padding: 357px 30px 19px 20px;
+        box-sizing: border-box;
+    }
+
+
+    .inner-card-content-heading h2{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .inner-card-content-paragraph p{
+        font-size: 16px;
+        line-height: 21.94px; 
+    }
+}
+
+
+@media screen and (min-width:800px) and (max-width:1141px) {
+    .pic-d{
+        width: 250px;
+        height: 330px;
+    }
+    .inner-card-content-d{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* gap: 8px; */
+        padding: 257px 30px 19px 20px;
+        box-sizing: border-box;
+    }
+
+
+    .inner-card-content-heading h2{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .inner-card-content-paragraph p{
+        font-size: 14px;
+        line-height: 21.94px; 
+    }
+}
+
+@media screen and (min-width:940px) and (max-width:1133px) {
+    .content-right-part h2{
+        width: 100%;
+        max-width: 581px;
+        font-size: 52px;
+        line-height: 60px;
+    }
+    .content-right-part p{
+        width: 100%;
+        max-width: 657px;
+        font-size: 18px;
+        line-height: 32px;
+    }
+}
+
+
+
+@media screen and (min-width:800px) and (max-width:940px) {
+    .content-right-part h2{
+        width: 100%;
+        max-width: 481px;
+        font-size: 44px;
+        line-height: 60px;
+    }
+    .content-right-part p{
+        width: 100%;
+        max-width: 557px;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .agencies-card-d{
+        padding: 80px 50px 88px 50px;
+
+    }
+}
+
+
+
+@media screen and (min-width:700px) and (max-width:800px) {
+    .content-right-part h2{
+        width: 100%;
+        max-width: 481px;
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .content-right-part p{
+        width: 100%;
+        max-width: 457px;
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .agencies-card-d{
+        padding: 80px 50px 88px 50px;
+
+    }
+        .pic-d{
+            width: 300px;
+            height: 430px;
+        }
+        .inner-card-content-d{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* gap: 8px; */
+            padding: 357px 30px 19px 20px;
+            box-sizing: border-box;
+        }
+    
+    
+        .inner-card-content-heading h2{
+            font-size: 24px;
+            line-height: 32px;
+        }
+        .inner-card-content-paragraph p{
+            font-size: 14px;
+            line-height: 21.94px; 
+        }
+}
+
+
+
+
+@media screen and (min-width:430px) and (max-width:700px){
+    .content-right-part h2{
+        width: 100%;
+        max-width: 681px;
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .content-right-part p{
+        width: 100%;
+        max-width: 757px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .agencies-card-d{
+        padding: 40px 20px 48px 20px;
+    }
+    .content-part{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .content-left-part{
+        width:133px;
+        height: 54px;
+        /* padding: 20px 30px; */
+        gap: 10px;
+        border-radius: 16px;
+        background: rgba(15, 111, 255, 1);
+        display: flex;
+        justify-content: center;  
+        margin: 0px;   
+    }
+    .content-right-part{
+        gap: 10px;
+    }
+    .content-left-part{
+        width: 100px;
+        height: 34px;
+        margin: 0px;   
+    }
+    .content-left-part button{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .pic-d{
+        width: 100%;
+        max-width: 430px;
+        height: 430px;
+        margin: 0px auto;
+    }
+    .inner-card-content-d{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* gap: 8px; */
+        padding: 357px 30px 19px 20px;
+        box-sizing: border-box;
+    }
+    .inner-card-content-heading h2{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .inner-card-content-paragraph p{
+        font-size: 14px;
+        line-height: 21.94px; 
+    }
+}
+
+
+@media screen and (max-width:430px){
+    .content-right-part h2{
+        width: 100%;
+        max-width: 681px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .content-right-part p{
+        width: 100%;
+        max-width: 757px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .agencies-card-d{
+        padding: 40px 20px 48px 20px;
+    }
+    .content-part{
+        gap: 10px;
+        flex-direction: column;
+    }
+    .content-left-part{
+        width: 100px;
+        height: 34px;
+        margin: 0px;   
+    }
+    .content-right-part{
+        gap: 10px;
+    }
+    .content-left-part button{
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .pic-d{
+        width: 100%;
+        max-width: 430px;
+        height: 430px;
+        margin: 0px auto;
+    }
+    .inner-card-content-d{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* gap: 8px; */
+        padding: 357px 30px 19px 20px;
+        box-sizing: border-box;
+    }
+    .inner-card-content-heading h2{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .inner-card-content-paragraph p{
+        font-size: 14px;
+        line-height: 21.94px; 
+    }
+}
