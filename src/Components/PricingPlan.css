@@ -1,0 +1,201 @@
+.pricing-plan-container{
+    width: 100%;
+    background-color:rgb(7, 7, 69) ;
+}
+.content-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 100px 100px 104px 100px;
+    box-sizing: border-box;
+    gap: 20px;
+}
+.card-1-d{
+    width: 100%;
+    max-width:400px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(150px);
+    box-sizing: border-box;
+}
+.card-1-pic img{
+    width: 30px;
+}
+.card-1-content-d{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.card-1-content-d h2{
+    font-family: Exo 2;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; 
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+.card-1-content-d p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+
+@media screen and (min-width:1305px) and (max-width:1438px) {
+    .card-1-d{
+        width: 100%;
+        max-width:350px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        gap: 20px;
+        border-radius: 30px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(150px);
+        box-sizing: border-box;
+    }
+}
+
+
+@media screen and (min-width:1140px) and (max-width:1305px) {
+    .card-1-d{
+        width: 100%;
+        max-width:300px;
+        padding: 30px
+    }
+    .card-1-content-d h2{
+        font-size: 24px;
+        line-height: 33.6px;
+    }
+    .card-1-content-d p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (min-width:990px) and (max-width:1140px) {
+    .card-1-d{
+        width: 100%;
+        max-width:250px;
+        padding: 20px;
+        gap: 13px;
+    }
+    .card-1-pic img{
+        width: 24px;
+    }
+    .card-1-content-d h2{
+        font-size: 24px;
+        line-height: 33.6px;
+    }
+    .card-1-content-d p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (min-width:890px) and (max-width:990px) {
+    .content-cards{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 70px 50px 74px 50px;
+        box-sizing: border-box;
+        gap: 20px;
+    }
+    .card-1-d{
+        width: 100%;
+        max-width:250px;
+        padding: 20px;
+        gap: 13px;
+    }
+    .card-1-pic img{
+        width: 24px;
+    }
+    .card-1-content-d h2{
+        font-size: 24px;
+        line-height: 33.6px;
+    }
+    .card-1-content-d p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (min-width:745px) and (max-width:890px) {
+    .content-cards{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 70px 50px 74px 50px;
+        box-sizing: border-box;
+        gap: 20px;
+    }
+    .card-1-d{
+        width: 100%;
+        max-width:200px;
+        padding: 20px;
+        gap: 13px;
+    }
+    .card-1-pic img{
+        width: 24px;
+    }
+    .card-1-content-d h2{
+        font-size: 22px;
+        line-height: 33.6px;
+    }
+    .card-1-content-d p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+}
+
+
+
+@media screen and (max-width:745px){
+    .content-cards{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 20px 34px 20px;
+        box-sizing: border-box;
+        gap: 20px;
+    }
+    .card-1-d{
+        width: 100%;
+        /* max-width:200px; */
+        padding: 30px;
+        gap: 13px;
+        margin: 0px auto;
+    }
+    .card-1-pic img{
+        width: 24px;
+    }
+    .card-1-content-d h2{
+        font-size: 22px;
+        line-height: 28.6px;
+    }
+    .card-1-content-d p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .card-1-content-d{
+        width: 100%;
+        gap: 10px;
+    }
+}

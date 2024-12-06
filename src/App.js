@@ -4,6 +4,8 @@ import NavbarSection from './Components/NavbarSection';
 import MainSection from './Components/MainSection';
 import ThirdComponent from './Components/ThirdComponent';
 import AgenciesCard from './Components/AgenciesCard';
+import WiningProcessSection from './Components/WiningProcessSection';
+import PricingPlan from './Components/PricingPlan';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <MainSection/>
       <ThirdComponent/>
       <AgenciesCard/>
+      <WiningProcessSection/>
+      <PricingPlan/>
     </div>
   );
 }
