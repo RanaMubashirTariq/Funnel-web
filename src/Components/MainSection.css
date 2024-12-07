@@ -1,6 +1,7 @@
 .main-container{
     width: 100%;
-    background: radial-gradient( circle at 50% 2%,rgb(12, 12, 225) 10%,black 50%) !important;
+    background: radial-gradient !important;
+    
 }  
 .main-container-part-1{
     width: 100%;
@@ -367,7 +368,7 @@
 
 
 
-@media screen  and (max-width:440px) {
+@media screen  and (min-width:350px) and (max-width:440px) {
     .main-container-part-1{
          flex-direction: column;
         padding: 30px 20px 30px 20px;
@@ -377,11 +378,11 @@
         width: 100%;
     }
      .part1{
-        width: 180px;
+        width: 150px;
 
     }
     .part1 p{
-        font-size: 14px;
+        font-size: 12px;
     }
     .part2{
         width: 100%;
@@ -390,12 +391,90 @@
         width: 100%;
     }
     .part2-top-side h2{
-        font-size: 48px;
-        line-height: 60px;
+        font-size: 44px;
+        line-height: 40px;
     }
     .part2-top-side h2 span{
-       font-size: 48px;
-       line-height: 60px;
+       font-size: 44px;
+       line-height: 40px;
+    }
+    .part2-bottom-side{
+        width: 100%;
+    }
+    .part2-bottom-side p{
+        font-size: 14px;
+    }
+    .right-btn{
+        width: 100px;
+        padding: 15px 15px;
+        gap: 10px;
+        border-radius: 16px;
+        background: rgba(15, 111, 255, 1);
+    }
+    .left-btn-d{
+        width: 104px;
+        padding: 15px 15px;
+        gap: 10px;
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 1);
+    }
+    .left-part-main-container-d {
+        height: 200px;
+        padding:0px;
+    }
+    .left-part-main-container-d video{
+        border-radius: 20px; 
+    }
+    .main-container-part-2 p{
+        font-family: Exo 2;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: rgba(255, 255, 255, 1);
+        margin: 0;
+    }
+    .main-container-part-3{
+        gap: 20px;
+    }
+    .main-container-pic img{
+        width: 100px;
+    }
+}
+
+
+
+@media screen  and (max-width:350px){
+    .main-container-part-1{
+         flex-direction: column;
+        padding: 30px 20px 30px 20px;
+
+    }
+    .first-part{
+        width: 100%;
+    }
+     .part1{
+        width: 150px;
+
+    }
+    .part1 p{
+        font-size: 12px;
+    }
+    .part2{
+        width: 100%;
+    }
+    .part2-top-side{
+        width: 100%;
+    }
+    .part2-top-side h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .part2-top-side h2 span{
+       font-size: 32px;
+       line-height: 40px;
     }
     .part2-bottom-side{
         width: 100%;

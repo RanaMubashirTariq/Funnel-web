@@ -6,6 +6,8 @@ import ThirdComponent from './Components/ThirdComponent';
 import AgenciesCard from './Components/AgenciesCard';
 import WiningProcessSection from './Components/WiningProcessSection';
 import PricingPlan from './Components/PricingPlan';
+import GrowTheCompany from './Components/GrowTheCompany';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <AgenciesCard/>
       <WiningProcessSection/>
       <PricingPlan/>
+      <GrowTheCompany/>
+      <Footer/>
     </div>
   );
 }

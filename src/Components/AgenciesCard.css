@@ -21,7 +21,7 @@
 }
 .content-right-part h2{
     width: 100%;
-    max-width: 681px;
+    /* max-width: 681px; */
     font-family: Exo 2;
     font-size: 60px;
     font-weight: 800;
@@ -31,6 +31,7 @@
     text-decoration-skip-ink: none;
      color: white;
      margin: 0;
+     text-transform: uppercase;
 }
 .content-right-part h2 span{
     color: rgba(15, 111, 255, 1);
@@ -205,7 +206,7 @@
 
 
     .inner-card-content-heading h2{
-        font-size: 24px;
+        font-size: 22px;
         line-height: 32px;
     }
     .inner-card-content-paragraph p{
@@ -213,12 +214,11 @@
         line-height: 21.94px; 
     }
 }
-
 @media screen and (min-width:940px) and (max-width:1133px) {
     .content-right-part h2{
         width: 100%;
         max-width: 581px;
-        font-size: 52px;
+        font-size: 44px;
         line-height: 60px;
     }
     .content-right-part p{
@@ -234,14 +234,14 @@
 @media screen and (min-width:800px) and (max-width:940px) {
     .content-right-part h2{
         width: 100%;
-        max-width: 481px;
-        font-size: 44px;
-        line-height: 60px;
+        max-width: 450px;
+        font-size: 36px;
+        line-height: 40px;
     }
     .content-right-part p{
         width: 100%;
         max-width: 557px;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 32px;
     }
     .agencies-card-d{
@@ -300,13 +300,13 @@
     .content-right-part h2{
         width: 100%;
         max-width: 681px;
-        font-size: 36px;
+        font-size: 32px;
         line-height: 40px;
     }
     .content-right-part p{
         width: 100%;
         max-width: 757px;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 22px;
     }
     .agencies-card-d{
@@ -371,7 +371,7 @@
     .content-right-part h2{
         width: 100%;
         max-width: 681px;
-        font-size: 24px;
+        font-size: 22px;
         line-height: 30px;
     }
     .content-right-part p{

@@ -54,6 +54,7 @@ export default function WiningProcessSection() {
                             <p>Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.</p>
                         </div>
                     </div>
+
              </div>
     </div>
   )
