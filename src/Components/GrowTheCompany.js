@@ -12,7 +12,7 @@ export default function GrowTheCompany() {
              </div>
 
              <div className='grow-up-content-left-d'>
-                <div className='grow-up-content-arrow'><img src="/Images/left-icon.svg" alt="" /></div>
+                <div className='grow-up-content-arrow '><img src="/Images/left-icon.svg" alt="" /></div>
                 <div className='grow-up-content-arrow'><img src="/Images/right-icon.svg" alt="" /></div>
              </div>
           </div>

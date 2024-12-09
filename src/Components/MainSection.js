@@ -33,14 +33,17 @@ export default function MainSection() {
             
         
         <div className='main-container-part-2'><p>100% Trained Virtual Assistanst</p></div>
-          <div className='main-container-part-3'>
-            <div className='main-container-pic'><img src="/Images/logosium.svg"/></div>
-            <div className='main-container-pic'><img src="/Images/logosium2.svg"/></div>
-            <div className='main-container-pic'><img src="/Images/logosium3.svg"/></div>
-            <div className='main-container-pic'><img src="/Images/logosium.svg"/></div>
-            <div className='main-container-pic'><img src="/Images/logosium2.svg"/></div>
-            <div className='main-container-pic'><img src="/Images/logosium3.svg"/></div>
-          </div>
+        <div className='marquee-pic'>
+             <marquee direction='left' scrollamount='10' >
+              <img src='/Images/logosium.svg'/>
+              <img src='/Images/logosium2.svg'/>
+              <img src='/Images/logosium3.svg'/>
+              <img src='/Images/logosium.svg'/>
+              <img src='/Images/logosium2.svg'/>
+              <img src='/Images/logosium3.svg'/>
+             </marquee>
+
+        </div>
    </div>
   )
 }

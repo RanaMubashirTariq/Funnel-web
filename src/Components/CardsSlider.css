@@ -11,7 +11,8 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px;
     opacity: 0px;
-    background: yellowgreen;
+    backdrop-filter: blur(50px)
+
 }
 .slider-card-inner-d{
     width: 100%;
